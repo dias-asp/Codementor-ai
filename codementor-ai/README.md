@@ -141,7 +141,7 @@ Your site will be live at: `https://YOUR_USERNAME.github.io/codementor-ai/`
 
 - If your repository name is different from `codementor-ai`, update the `--base-href` in `package.json`:
   ```json
-  "deploy": "ng build --configuration production --base-href /YOUR_REPO_NAME/ && npx angular-cli-ghpages --dir=dist/codementor-ai/browser"
+  "deploy": "ng build --configuration production --base-href /Codementor-ai/ && npx angular-cli-ghpages --dir=dist/codementor-ai/browser"
   ```
 
 - For custom domain, add a `CNAME` file in the `public` folder with your domain name
