@@ -1,0 +1,87 @@
+.problem {
+  padding: 6rem 2rem;
+  background: rgba(17, 24, 39, 0.5);
+}
+
+.problem-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.25rem;
+  color: #9ca3af;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.problem-card {
+  padding: 2rem;
+  background: rgba(17, 24, 39, 0.8);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.problem-card:hover {
+  border-color: rgba(239, 68, 68, 0.4);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(239, 68, 68, 0.2);
+}
+
+.problem-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.problem-card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+
+.problem-card-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #9ca3af;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .problem {
+    padding: 4rem 1.5rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.125rem;
+  }
+
+  .problem-grid {
+    grid-template-columns: 1fr;
+  }
+}
